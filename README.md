@@ -24,6 +24,7 @@ Sou Musico, e por isso procuro sempre ser criativo tanto em composições quanto
  <a href="https://nodejs.org/en/"><img src = "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/></a>
   <a href="https://git-scm.com"><img src = "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/></a>
   <a href="https://github.com"><img src = "https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://www.oracle.com/br/index.html"><img src = "https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white"/></a>
 </h4>
 
 - 📫 Entre em contato comigo: **romribkevin@gmail.com**
