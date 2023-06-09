@@ -132,49 +132,158 @@ Pude também estar desenvolvendo e aprimorando algumas softskills sendo elas:
 
 ### [API - 2º Semestre](https://github.com/whatscodeg3/API-2DSM-DailyBot)
 
-
-### Empresa Parceira ###
-FATEC Prof. Jessen Vidal (projeto proposto pelos professores da FATEC)
+## Empresa Parceira 
+MidAll
 <br>
 
-### Desafio ###
+## Resumo do Projeto 
 
-#### Bot ####
-Neste projeto...
-<br>
+Desenvolver Crawler que consiga buscar, ler o arquivo e identificar o conteúdo relacionado aos Professores Associados, realizar os 
+cruzamentos necessários com as bases de dados de associados, que suportarão está solução, gravar todos os processos publicados 
+relacionados aos associados, e emitir relatório diário para que a equipe consiga disparar os e-mails para os professores citados 
+no Diário Oficial. Caso consigam também realizar a automação do disparo destes e-mails seria uma sofisticação para a solução.
 
-### Minhas Contribuições ###
-Neste projeto...
-<br>
+## Tecnologias 
+* ReactJS
+* StyledComponents
+* JavaScript
+* TypeScript
+* NodeJS
+* ExpressJS
+* MySQL
 
-### Tecnologias ###
-<br>
+## Contribuições Pessoais
 
-### Hard Skills desenvolvidas ###
-Neste projeto...
+Este projeto foi um pouco mais desafiador pois desempenhei o papel de Scrum Master. Como Scrum Master, fui responsável por facilitar a metodologia 
+ágil Scrum e garantir a eficácia da equipe de desenvolvimento. Minhas principais responsabilidades incluíram facilitar as cerimônias do 
+Scrum, remover obstáculos para a produtividade da equipe, apoiar o Product Owner, promover a colaboração e a transparência e aplicar 
+melhorias contínuas. Consegui desempenhar um papel fundamental na criação de um ambiente de trabalho colaborativo, no cumprimento das metas 
+do projeto e no gerenciamento eficaz do fluxo de trabalho da equipe de desenvolvimento.
+
+Além disso, desempenhei outro papel fundamental, o desenvolvimento das interfaces, utilizando a biblioteca ReactJS. Minhas 
+responsabilidades incluíam a criação e aprimoramento de componentes reutilizáveis, a implementação de lógica de negócios relacionada 
+à interface do usuário e a integração com a API back-end.
+
+Utilizei o React Router para a navegação entre diferentes páginas e rotas da aplicação, garantindo uma experiência de usuário fluida 
+e intuitiva. Além disso, aproveitei recursos como hooks, que permitiram o gerenciamento eficiente de estado e a execução de efeitos 
+colaterais.
+
+Também me utilizei a biblioteca styled-components, pude criar estilos personalizados para cada componente, garantindo uma separação 
+clara entre a lógica de apresentação e a lógica de negócios. Em vez de criar arquivos CSS separados, pude definir estilos diretamente 
+no código JavaScript dos componentes.
+
+No geral, minha contribuição com o uso da biblioteca ReactJS foi fundamental para o sucesso do projeto, permitindo a criação de 
+interfaces modernas, interativas e de alto desempenho.
+
+
+<details>
+    
+  <Summary>Contribuições Front-End</Summary>
+  
+  ```html
+    function Header() {
+        return (
+            <>
+                <DivFundo>
+                    <img src={logo} alt="logo" />
+                    <Titulo className="titulo">Dailybot é um robô<br /> programado para estar<br /> constantemente de<br /> olho no <Diario
+                        href="http://www.imprensaoficial.com.br/" className="diario"><u style={{ fontFamily: 'Roboto' }}>Diário Oficial</u></Diario>
+                    </Titulo>
+                </DivFundo>
+            </>
+        )
+    };
+    export default Header;
+  ```
+   No código acima, pude contribuir para a criação, estruturação e estilização do componente Header. Esse componente desempenha um papel fundamental 
+    ao renderizar o cabeçalho das páginas, fornecendo uma identidade visual consistente e intuitiva para o site. Com minha contribuição, foi possível 
+    garantir que o Header seja visualmente atraente, responsivo e facilmente reconhecível pelos usuários, contribuindo para uma experiência de navegação 
+    agradável e eficiente.
+  <br>
+</details>
+  
+## Aprendizados Efetivos
+
+#### Hard Skills  
+Pude neste projeto tive a oportunidade de desenvolver novas habilidades em tecnologias de front-end.
+
+<details>
+    <Summary>Ver Hard Skills desenvolvidas</Summary>
+* ReactJS - Na criação de componentes que compoem as interfaces;
+* Styled-Componentes - Na estilização dos componentes;
+* ReactRouterDom - Na criação das rotas.
+</details>
+
+#### Soft Skills 
+Pude também estar desenvolvendo e aprimorando algumas softskills sendo elas:
+
+<details>
+    <Summary>Ver Soft Skills desenvolvidas</Summary>
+* Comunicação: Nas apresentações de sprints;
+* Trabalho em equipe: Ao lidar com a metodologia ágil SCRUM, seguindo ritos como: reuniões diárias(Dailys), reuniões de planejamento(Sprint Planning), reuniões de revisão(Sprint Review) e por fim, reuniões de retrospectiva(Sprint Retrospective);
+* Autonomia: Sabendo o que devia ser feito e sempre entregando nos prazos corretos.
+* Organização: Como master, na organização ritos da metodologia Scrum e no controle de Burndown e Softskills desenvolvidas por cada membro.
+* Empatia: Como Scrum Master, foi preciso ser capaz de se colocar no lugar dos membros da equipe, compreender suas necessidades, preocupações e desafios.
+* Adaptação: Novamente como Scrum Master fui capaz de me adaptar a diferentes situações e desafios em um ambiente ágil em constante evolução.
+</details>
 <br>
 
 ### [API - 3º Semestre](https://github.com/whatscodeg3/API-3DSM)
 
-### Empresa Parceira ###
-FATEC Prof. Jessen Vidal (projeto proposto pelos professores da FATEC)
+## Empresa Parceira 
+Pro4Tech
 <br>
 
-### Desafio ###
+## Resumo do Projeto 
+ 
+Desenvolver um sistema em microsserviços que permite com que os funcinários da empresa consigam cadastrar vendas e ter controle sobre as parcelas a serem pagas por seus clientes, gerando relatórios completos para facilitar a análise de informações.
 
-#### Site para controle de parcelas ####
-Neste projeto...
-<br>
+## Tecnologias 
+* ReactTS
+* JavaScript
+* TypeScript
+* Java
+* SpringBoot
+* MySQL
+* Docker
 
-### Minhas Contribuições ###
-Neste projeto...
-<br>
+## Contribuições Pessoais
+...
 
-### Tecnologias ###
-<br>
+<details>
+    
+  <Summary>Contribuições Front-End</Summary>
+  
+  ```html
+    ...
+  ```
+  ...
+  <br>
+</details>
 
-### Hard Skills desenvolvidas ###
-Neste projeto...
+<details>
+  
+## Aprendizados Efetivos
+
+#### Hard Skills  
+Pude neste projeto tive a oportunidade de desenvolver novas habilidades em tecnologias de front-end.
+
+<details>
+    <Summary>Ver Hard Skills desenvolvidas</Summary>
+*
+*
+* ...
+</details>
+
+#### Soft Skills 
+Pude também estar desenvolvendo e aprimorando algumas softskills sendo elas:
+
+<details>
+    <Summary>Ver Soft Skills desenvolvidas</Summary>
+* Comunicação: Nas apresentações de sprints;
+* Trabalho em equipe: Ao lidar com a metodologia ágil SCRUM, seguindo ritos como: reuniões diárias(Dailys), reuniões de planejamento(Sprint Planning), reuniões de revisão(Sprint Review) e por fim, reuniões de retrospectiva(Sprint Retrospective);
+* Autonomia: Sabendo o que devia ser feito e sempre entregando nos prazos corretos.
+</details>
 <br>
 
 <br>
