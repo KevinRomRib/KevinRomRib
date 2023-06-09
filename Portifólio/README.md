@@ -46,7 +46,7 @@ No geral, minha contribuição foi essencial para o desenvolvimento de uma aplic
     
   <Summary>Contribuições Front-End</Summary>
   
-  ```html
+  ```javascript
     const ctx1 = document.getElementById(id).getContext('2d');
     const myChart1 = new Chart(ctx1, {
         type: 'pie',
@@ -85,7 +85,13 @@ No geral, minha contribuição foi essencial para o desenvolvimento de uma aplic
     
   <Summary>Contribuições Back-End</Summary>
   
-  ```html
+> Durante o desenvolvimento do projeto, tive a oportunidade de criar rotas utilizando o framework Flask. O código abaixo é um exemplo 
+    de uma rota simples que eu criei com uma funcionalidade específica. Essa rota é responsável por lidar com a verificação do usuário. 
+    Primeiramente, é verificado se o usuário está autenticado. Se sim, o código solicita a lista do histórico de solicitações desse 
+    usuário, enviando o ID do usuário como parâmetro. Em seguida, a página de histórico é renderizada, exibindo a lista do histórico de 
+    solicitações. No caso de o usuário não estar verificado, ele é redirecionado para a página inicial do aplicativo.    
+    
+  ```python
      @contacts.route('/historico')
      def historico():
          if g.user != None:
@@ -95,11 +101,7 @@ No geral, minha contribuição foi essencial para o desenvolvimento de uma aplic
                  return render_template('usuario-historico.html', listas=lista, user=session['user'])     
          return redirect(url_for('contacts.index'))
   ```
-  Durante o desenvolvimento do projeto, tive a oportunidade de criar rotas utilizando o framework Flask. O código acima é um exemplo 
-    de uma rota simples que eu criei com uma funcionalidade específica. Essa rota é responsável por lidar com a verificação do usuário. 
-    Primeiramente, é verificado se o usuário está autenticado. Se sim, o código solicita a lista do histórico de solicitações desse 
-    usuário, enviando o ID do usuário como parâmetro. Em seguida, a página de histórico é renderizada, exibindo a lista do histórico de 
-    solicitações. No caso de o usuário não estar verificado, ele é redirecionado para a página inicial do aplicativo.
+  
   <br>
 </details>
 
@@ -111,12 +113,19 @@ Pude neste projeto tive a oportunidade de desenvolver novas habilidades em tecno
 
 <details>
     <Summary>Ver Hard Skills desenvolvidas</Summary>
+    
 * HTML - No desenvolvimento do layout das interfaces;
+    
 * CSS - No desenvolvimento da estilização das interfaces;
+    
 * JavaScript - No desenvolvimento de manipulação do DOM e na construção de graficos da página de relatórios;
+    
 * Python - No desenvolvimento do microframework Flask.
+    
 * Flask - No desenvolvimento das rotas e na conexão do back-end com o front-end;
+    
 * MySQL - Ao lidar com as querrys para fazer chamadas no banco de dados.
+    
 </details>
 
 #### Soft Skills 
@@ -124,9 +133,13 @@ Pude também estar desenvolvendo e aprimorando algumas softskills sendo elas:
 
 <details>
     <Summary>Ver Soft Skills desenvolvidas</Summary>
+    
 * Comunicação: Nas apresentações de sprints;
+
 * Trabalho em equipe: Ao lidar com a metodologia ágil SCRUM, seguindo ritos como: reuniões diárias(Dailys), reuniões de planejamento(Sprint Planning), reuniões de revisão(Sprint Review) e por fim, reuniões de retrospectiva(Sprint Retrospective);
+
 * Autonomia: Sabendo o que devia ser feito e sempre entregando nos prazos corretos.
+    
 </details>
 <br>
 
@@ -180,7 +193,12 @@ interfaces modernas, interativas e de alto desempenho.
     
   <Summary>Contribuições Front-End</Summary>
   
-  ```html
+  > No código abaixo, pude contribuir para a criação, estruturação e estilização do componente Header. Esse componente desempenha um papel fundamental 
+    ao renderizar o cabeçalho das páginas, fornecendo uma identidade visual consistente e intuitiva para o site. Com minha contribuição, foi possível 
+    garantir que o Header seja visualmente atraente, responsivo e facilmente reconhecível pelos usuários, contribuindo para uma experiência de navegação 
+    agradável e eficiente.
+    
+  ```javascript
     function Header() {
         return (
             <>
@@ -195,10 +213,6 @@ interfaces modernas, interativas e de alto desempenho.
     };
     export default Header;
   ```
-   No código acima, pude contribuir para a criação, estruturação e estilização do componente Header. Esse componente desempenha um papel fundamental 
-    ao renderizar o cabeçalho das páginas, fornecendo uma identidade visual consistente e intuitiva para o site. Com minha contribuição, foi possível 
-    garantir que o Header seja visualmente atraente, responsivo e facilmente reconhecível pelos usuários, contribuindo para uma experiência de navegação 
-    agradável e eficiente.
   <br>
 </details>
   
@@ -209,9 +223,13 @@ Pude neste projeto tive a oportunidade de desenvolver novas habilidades em tecno
 
 <details>
     <Summary>Ver Hard Skills desenvolvidas</Summary>
+    
 * ReactJS - Na criação de componentes que compoem as interfaces;
+
 * Styled-Componentes - Na estilização dos componentes;
+
 * ReactRouterDom - Na criação das rotas.
+    
 </details>
 
 #### Soft Skills 
@@ -219,12 +237,19 @@ Pude também estar desenvolvendo e aprimorando algumas softskills sendo elas:
 
 <details>
     <Summary>Ver Soft Skills desenvolvidas</Summary>
+
 * Comunicação: Nas apresentações de sprints;
+
 * Trabalho em equipe: Ao lidar com a metodologia ágil SCRUM, seguindo ritos como: reuniões diárias(Dailys), reuniões de planejamento(Sprint Planning), reuniões de revisão(Sprint Review) e por fim, reuniões de retrospectiva(Sprint Retrospective);
+
 * Autonomia: Sabendo o que devia ser feito e sempre entregando nos prazos corretos.
+
 * Organização: Como master, na organização ritos da metodologia Scrum e no controle de Burndown e Softskills desenvolvidas por cada membro.
+
 * Empatia: Como Scrum Master, foi preciso ser capaz de se colocar no lugar dos membros da equipe, compreender suas necessidades, preocupações e desafios.
+
 * Adaptação: Novamente como Scrum Master fui capaz de me adaptar a diferentes situações e desafios em um ambiente ágil em constante evolução.
+    
 </details>
 <br>
 
