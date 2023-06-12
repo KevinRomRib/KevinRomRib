@@ -45,6 +45,10 @@ No geral, minha contribuição foi essencial para o desenvolvimento de uma aplic
 <details>
     
   <Summary>Contribuições Front-End</Summary>
+    
+  > Nesse código por exemplo eu pude contribuir no desenvolvimento de um gráfico utilizando a biblioteca ChartsJS. Escrevi o código 
+    necessário para configurar e personalizar o gráfico, incluindo o tipo de gráfico, os datasets e as opções adicionais. Também 
+    implementei funcionalidades avançadas, como atualização em tempo real dos dados e interatividade com o usuário.
   
   ```javascript
     const ctx1 = document.getElementById(id).getContext('2d');
@@ -75,9 +79,7 @@ No geral, minha contribuição foi essencial para o desenvolvimento de uma aplic
 
     };
   ```
-  Nesse código por exemplo eu pude contribuir no desenvolvimento de um gráfico utilizando a biblioteca ChartsJS. Escrevi o código 
-    necessário para configurar e personalizar o gráfico, incluindo o tipo de gráfico, os datasets e as opções adicionais. Também 
-    implementei funcionalidades avançadas, como atualização em tempo real dos dados e interatividade com o usuário.
+    
   <br>
 </details>
 
@@ -261,7 +263,7 @@ Pro4Tech
 
 ## Resumo do Projeto 
  
-Desenvolver um sistema em microsserviços que permite com que os funcinários da empresa consigam cadastrar vendas e ter controle sobre as parcelas a serem pagas por seus clientes, gerando relatórios completos para facilitar a análise de informações.
+Desenvolver um sistema de microsserviços que tem como objetivo oferecer aos funcionários da empresa a capacidade de cadastrar vendas e gerenciar as parcelas a serem pagas pelos clientes. Essa solução permite um controle eficiente e centralizado das transações comerciais, oferecendo recursos para a criação, edição e acompanhamento das vendas, bem como a geração de relatórios completos que facilitam a análise e interpretação das informações. O sistema possibilita o monitoramento das parcelas em aberto, facilitando o acompanhamento e controle das cobranças a serem realizadas. Com os relatórios gerados, a empresa obtém uma visão clara e detalhada das vendas realizadas, incluindo métricas de desempenho, como volume de vendas, inadimplência e outras informações cruciais para a tomada de decisões estratégicas. Em resumo, o sistema de microsserviços proposto simplifica e automatiza o processo de cadastramento de vendas, controle de parcelas e geração de relatórios, otimizando o trabalho dos funcionários e fornecendo uma visão abrangente e precisa das informações comerciais.
 
 ## Tecnologias 
 * ReactTS
@@ -273,21 +275,56 @@ Desenvolver um sistema em microsserviços que permite com que os funcinários da
 * Docker
 
 ## Contribuições Pessoais
-...
+Neste projeto, como desenvolvedor, novamente fui responsável pelo desenvolvimento do front-end utilizando a biblioteca React. Optei por adotar uma abordagem de arquitetura escalável, utilizando o conceito de Atomic Design. Essa abordagem organiza os componentes em uma hierarquia, começando pelos blocos de construção menores e combinando-os para formar componentes mais complexos.
+
+Ao adotar o Atomic Design, pude dividir os componentes em átomos, moléculas, organismos, templates e páginas. Os átomos são os blocos de construção básicos, como botões, inputs e textos. As moléculas são combinações de átomos, formando componentes mais complexos, como um formulário de cadastro. Os organismos são composições de moléculas e átomos, como um cabeçalho ou um rodapé. Os templates são as estruturas de página reutilizáveis, e as páginas são as instâncias específicas desses templates.
+
+Para a estilização dos componentes, novamente me utilizei a biblioteca styled-components, pude criar estilos personalizados para cada componente, garantindo uma separação 
+clara entre a lógica de apresentação e a lógica de negócios. Em vez de criar arquivos CSS separados, pude definir estilos diretamente 
+no código JavaScript dos componentes.
+
+Novamente utilizei a biblioteca react-router-dom para a navegação entre diferentes páginas e rotas da aplicação, garantindo uma experiência de usuário fluida 
+e intuitiva. Além disso, aproveitei recursos como hooks, que permitiram o gerenciamento eficiente de estado e a execução de efeitos 
+colaterais.
+
+Essas escolhas e técnicas adotadas no desenvolvimento do front-end permitiram criar um aplicativo React bem estruturado, escalável e de fácil manutenção. A abordagem do Atomic Design ajudou a organizar os componentes de forma coesa e reutilizável, enquanto o styled-components proporcionou uma estilização eficiente e legível. O react-router-dom, por sua vez, permitiu criar uma experiência de navegação fluída e intuitiva para os usuários.
 
 <details>
     
   <Summary>Contribuições Front-End</Summary>
+    
+  > Neste codigo por exemplo pude estruturar componente SearchField, que é responsável por renderizar um campo de busca. Ele permite que os usuários digitem um texto para realizar uma pesquisa e dispara um evento de mudança (onChange) quando o conteúdo do campo de busca é alterado.
   
   ```html
-    ...
+    import React, { ChangeEvent } from "react";
+    import { Field } from "./defaultStyles";
+
+    interface SearchFieldProps {
+      value?: string ;
+      onChange: (event: ChangeEvent<HTMLInputElement>) => void;
+      placeholder?: string;
+    }
+    
+    const SearchField: React.FC<SearchFieldProps> = (props) => {
+      return (
+        <div className="mb-3">
+          <span className="p-input-icon-left">
+            <i className="pi pi-search" />
+            <Field
+              value={props.value}
+              onChange={props.onChange}
+              placeholder={props.placeholder}
+            />
+          </span>
+        </div>
+      );
+    }
+    export default SearchField;
   ```
   ...
   <br>
 </details>
 
-<details>
-  
 ## Aprendizados Efetivos
 
 #### Hard Skills  
@@ -295,9 +332,15 @@ Pude neste projeto tive a oportunidade de desenvolver novas habilidades em tecno
 
 <details>
     <Summary>Ver Hard Skills desenvolvidas</Summary>
-*
-*
-* ...
+    
+* ReactJS - Na criação de componentes que compoem as interfaces;
+
+* Styled-Componentes - Na estilização dos componentes;
+
+* ReactRouterDom - Na criação das rotas;
+   
+* Atomic Design - Para uma melhor organização dos componentes.
+    
 </details>
 
 #### Soft Skills 
@@ -305,20 +348,17 @@ Pude também estar desenvolvendo e aprimorando algumas softskills sendo elas:
 
 <details>
     <Summary>Ver Soft Skills desenvolvidas</Summary>
+    
 * Comunicação: Nas apresentações de sprints;
+    
 * Trabalho em equipe: Ao lidar com a metodologia ágil SCRUM, seguindo ritos como: reuniões diárias(Dailys), reuniões de planejamento(Sprint Planning), reuniões de revisão(Sprint Review) e por fim, reuniões de retrospectiva(Sprint Retrospective);
-* Autonomia: Sabendo o que devia ser feito e sempre entregando nos prazos corretos.
+    
+* Autonomia: Sabendo o que devia ser feito e sempre entregando nos prazos corretos;
+    
+* Entrega de resultados: Sempre fazendo entregas continuas e efetivas.
+    
 </details>
 <br>
-
-<br>
-<br>
-
-## Formações 🎓
-
-### Superior em Desenvolvimento de Software Multiplataforma - FATEC São José dos Campos (2024)
-
-Estou aprendendo...
 
 <br>
 <br>
